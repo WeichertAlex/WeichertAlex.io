@@ -1,15 +1,27 @@
 /* Basic Reset */
-body, h1, h2, h3, p, ul {
+body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Background and Text Color */
+/* Apply Georgia font to the entire webpage */
 body {
+    font-family: 'Georgia', serif !important; /* Georgia font, use serif as fallback */
     background-color: #f0f0f0; /* Light grey background */
     color: #000000; /* Black text */
-    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply Georgia font to all major text elements */
+h1, h2, h3, p, li, a {
+    font-family: 'Georgia', serif !important; /* The !important rule ensures it overrides any other styles */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #007bff; /* Blue background for navbar */
 }
 
 /* Footer at the bottom of the page */
@@ -26,11 +38,6 @@ footer {
 /* Text and Header Styles */
 h1, h2, h3 {
     color: #2c3e50;
-}
-
-/* Navbar Styles */
-.navbar {
-    background-color: #007bff; /* Blue background for navbar */
 }
 
 /* Add spacing to sections */
