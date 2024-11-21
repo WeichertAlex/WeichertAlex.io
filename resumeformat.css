@@ -14,22 +14,24 @@ body {
 
 /* Main container for the "Welcome" section */
 section {
-    margin-top: 30px; /* Add some space above the section */
+    margin-top: 50px; /* Increase space above the section */
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* Margin for the image */
 img {
-    margin-bottom: 20px; /* Space below the image */
+    margin-bottom: 30px; /* Increase space below the image */
 }
 
 /* Margin for the name */
 h1 {
-    margin-bottom: 15px; /* Space below the name */
+    margin-bottom: 20px; /* Increase space below the name */
 }
 
 /* Margin for the description */
 p.lead {
-    margin-top: 10px; /* Space above the description */
+    margin-top: 20px; /* Increase space above the description */
 }
 
 /* Navbar Styles */
