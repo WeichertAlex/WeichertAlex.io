@@ -1,58 +1,116 @@
+/* Global Body Styling */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
+    background-color: #f4f6f9;
+    color: #333;
 }
 
+/* Header Styling */
 header {
-    background-color: #007bff;
+    background-color: #2c3e50;
     color: white;
+    padding: 10px 0;
 }
 
-nav a {
-    color: white;
-}
-
-    nav a:hover {
-        color: #ffd700;
+    header a {
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 0.5px;
     }
 
-footer {
-    background-color: #343a40;
-    color: white;
+        header a:hover {
+            color: #f39c12;
+        }
+
+/* Navbar Styling */
+.navbar {
+    margin-bottom: 0;
 }
 
+/* Make the nav links stand out when hovered */
+.navbar-nav .nav-link:hover {
+    color: #f39c12 !important;
+    background-color: #34495e;
+    border-radius: 5px;
+}
+
+/* Main Content Section */
 .container {
-    max-width: 800px;
+    margin-top: 40px;
 }
 
-h1, h2 {
-    font-weight: bold;
+/* Headings */
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
-ul {
-    list-style-type: none;
-    padding-left: 0;
+/* Text Styling */
+.lead {
+    font-size: 1.25rem;
+    color: #555;
 }
 
-    ul li {
-        background-color: #ffffff;
-        padding: 10px;
-        margin: 5px 0;
-        border-radius: 5px;
+/* About Page - Add a personal touch */
+section {
+    background-color: #ecf0f1;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom Card-like Section for Projects */
+.project-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+}
+
+    .project-card h5 {
+        font-size: 1.5rem;
+        color: #2c3e50;
     }
 
-.list-group-item {
-    border: none;
+    .project-card a {
+        text-decoration: none;
+        color: #e67e22;
+    }
+
+        .project-card a:hover {
+            text-decoration: underline;
+        }
+
+/* Footer */
+footer {
+    background-color: #34495e;
+    color: white;
     padding: 20px;
-    margin-bottom: 10px;
+    text-align: center;
 }
 
+/* Add more dynamic hover effects */
+.btn-primary {
+    background-color: #3498db;
+    border-color: #2980b9;
+}
+
+    .btn-primary:hover {
+        background-color: #2980b9;
+        border-color: #1f6699;
+    }
+
+.btn {
+    transition: background-color 0.3s ease;
+}
+
+/* Responsive Image */
 .img-fluid {
     max-width: 200px;
+    height: auto;
+    border-radius: 50%;
     margin-bottom: 20px;
-}
-
-.lead {
-    font-size: 1.2rem;
-    font-weight: 400;
 }
