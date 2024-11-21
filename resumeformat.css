@@ -12,47 +12,47 @@ body {
     color: #000000;
 }
 
-/* Main container for the "Welcome" section */
-section {
-    margin-top: 50px; /* Increase space above the section */
-    padding-left: 15px;
-    padding-right: 15px;
+/* Ensure all cards in the grid have the same height */
+.card {
+    display: flex;
+    flex-direction: column;
 }
 
-/* Margin for the image */
-img {
-    margin-bottom: 30px; /* Increase space below the image */
+.card-body {
+    flex-grow: 1;
 }
 
-/* Margin for the name */
-h1 {
-    margin-bottom: 20px; /* Increase space below the name */
+/* Optional: Style for card images */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
 }
 
-/* Margin for the description */
-p.lead {
-    margin-top: 20px; /* Increase space above the description */
+/* Footer Styles */
+footer {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+}
+
+/* Ensure the body and html take full height so the footer stays at the bottom */
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
 }
 
 /* Navbar Styles */
 .navbar {
-    background-color: #007bff; /* Blue background for navbar */
-}
-
-/* Footer at the bottom of the page */
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-    background-color: #fff;
-    border-top: 1px solid #ddd;
-}
-
-/* Text and Header Styles */
-h1, h2, h3 {
-    color: #2c3e50;
+    background-color: #007bff;
 }
 
 /* Add spacing to sections */
@@ -60,18 +60,7 @@ section {
     margin-bottom: 30px;
 }
 
-/* List Styling */
-.list-group-item {
-    font-size: 1.1rem;
-}
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-    .navbar-brand {
-        font-size: 1.5rem;
-    }
-
-    .list-group-item {
-        font-size: 1rem;
-    }
+/* Text and Header Styles */
+h1, h2, h3 {
+    color: #2c3e50;
 }
