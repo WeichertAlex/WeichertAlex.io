@@ -7,16 +7,29 @@ body, h1, h2, h3, p, ul, li {
 
 /* Apply Georgia font to the entire webpage */
 body {
-    font-family: 'Georgia', serif !important; /* Georgia font, use serif as fallback */
-    background-color: #f0f0f0; /* Light grey background */
-    color: #000000; /* Black text */
-    margin: 0;
-    padding: 0;
+    font-family: 'Georgia', serif !important;
+    background-color: #f0f0f0;
+    color: #000000;
 }
 
-/* Apply Georgia font to all major text elements */
-h1, h2, h3, p, li, a {
-    font-family: 'Georgia', serif !important; /* The !important rule ensures it overrides any other styles */
+/* Main container for the "Welcome" section */
+section {
+    margin-top: 30px; /* Add some space above the section */
+}
+
+/* Margin for the image */
+img {
+    margin-bottom: 20px; /* Space below the image */
+}
+
+/* Margin for the name */
+h1 {
+    margin-bottom: 15px; /* Space below the name */
+}
+
+/* Margin for the description */
+p.lead {
+    margin-top: 10px; /* Space above the description */
 }
 
 /* Navbar Styles */
