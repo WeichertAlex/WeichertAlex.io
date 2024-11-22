@@ -1,18 +1,15 @@
-/* Basic Reset */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Apply Georgia font to the entire webpage */
 body {
     font-family: 'Georgia', serif !important;
     background-color: #f0f0f0;
     color: #000000;
 }
 
-/* Ensure all cards in the grid have the same height */
 .card {
     display: flex;
     flex-direction: column;
@@ -22,13 +19,11 @@ body {
     flex-grow: 1;
 }
 
-/* Optional: Style for card images */
 .card-img-top {
     height: 200px;
     object-fit: cover;
 }
 
-/* Footer Styles */
 footer {
     position: relative;
     width: 100%;
@@ -39,7 +34,6 @@ footer {
     margin-top: 30px;
 }
 
-/* Ensure the body and html take full height so the footer stays at the bottom */
 html, body {
     height: 100%;
     display: flex;
@@ -50,17 +44,15 @@ main {
     flex-grow: 1;
 }
 
-/* Navbar Styles */
 .navbar {
     background-color: #007bff;
 }
 
-/* Add spacing to sections */
 section {
     margin-bottom: 30px;
 }
 
-/* Text and Header Styles */
+
 h1, h2, h3 {
     color: #2c3e50;
 }
